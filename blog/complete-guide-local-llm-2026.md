@@ -38,16 +38,18 @@ A model running on a 5-year-old RTX 3060 at Q4 quantization will give you 90% of
 ### The Quick Reference Table
 
 | Your GPU | VRAM | Best Model to Start With | Expected Speed |
-|---|---|---|---|
-| RTX 3060 / 4060 (12GB version) | 12 GB | Qwen 2.5:7b (Q4_K_M) | 25–35 tok/s |
-| RTX 4070 / 5070 | 12 GB | Qwen 2.5:14b (Q4_K_M) | 30–45 tok/s |
-| RTX 4090 / 5090 | 24 GB | Qwen 2.5:32b (Q4) | 20–30 tok/s |
-| Mac M1/M2 (16GB) | Shared | Qwen 2.5:7b (Q4) | 15–25 tok/s |
-| Mac M3/M4 (36GB) | Shared | Qwen 2.5:14b (Q4) | 25–40 tok/s |
-| **CPU only, 32GB RAM** | N/A | Qwen 2.5:7b (Q4) | **1–4 tok/s** |
+|---|---|---|---|---|
+| GPU with 12GB+ VRAM (RTX 3060, 4060 Ti) | 12–16 GB | Qwen 2.5:7b | 25–35 tok/s |
+| RTX 4070 / 5070 | 12 GB | Qwen 2.5:14b | 30–45 tok/s |
+| RTX 4090 / 5090 | 24 GB | Qwen 2.5:32b | 20–30 tok/s |
+| Mac M1/M2 (16GB) | Shared | Qwen 2.5:7b | 15–25 tok/s |
+| Mac M3/M4 (36GB) | Shared | Qwen 2.5:14b | 25–40 tok/s |
+| **CPU only, 32GB RAM** | N/A | Qwen 2.5:7b | **1–3 tok/s** (varies by CPU) |
 | **CPU only, 16GB RAM** | N/A | Qwen 2.5:1.5b | 5–10 tok/s |
 
 > **"I only have a laptop."** — Start with Qwen 2.5:1.5b or Phi-4 Mini. They run on anything and are surprisingly capable for their size.
+>
+> 💡 **Note:** Ollama auto-selects Q4 quantization when pulling models. Speeds shown assume Q4 equivalent.
 
 > **"I have an AMD GPU."** — Ollama supports ROCm. Performance is good but setup is harder. See the [AMD guide](https://github.com/Lingdas1/local-llm-guide/tree/main/02-hardware-guide/amd-intel-apple-silicon.md) in the repo.
 
@@ -281,6 +283,8 @@ Let's talk money.
 
 **Break-even: ~14 months** for a heavy user. After that, it's pure savings.
 
+> 💰 *Estimates based on US average electricity rate ($0.15/kWh). Actual costs vary by region and hardware prices. GPU resale value not factored in.*
+
 ### Scenario: Light User (<$50/month on APIs)
 
 | Cost Item | Cloud API (GPT-4o-mini) | Local (Existing PC + Qwen 2.5:7b) |
@@ -306,6 +310,18 @@ curl -s https://raw.githubusercontent.com/Lingdas1/local-llm-guide/main/scripts/
 
 ---
 
+## 🔍 Quick Answers
+
+| Your Question | Jump To |
+|---|---|
+| My GPU only has 4GB, can I still run anything? | See "CPU only" rows in [Hardware Table](#the-quick-reference-table) |
+| Why recommend Chinese models over Western ones? | [Why I Recommend Chinese Models First](#why-i-recommend-chinese-models-first) |
+| Does quantization hurt quality a lot? | [Quantization Trade-off Table](#the-trade-off-table) |
+| How much money can I save vs ChatGPT? | [Local vs Cloud API](#8-the-numbers-local-vs-cloud-api) |
+| I'm stuck, where do I get help? | Join [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) or open a [GitHub issue](https://github.com/Lingdas1/local-llm-guide/issues) |
+
+---
+
 ## What's Coming Next
 
 This article is the gateway. The full [**local-llm-guide**](https://github.com/Lingdas1/local-llm-guide) GitHub repository dives deep into:
@@ -324,7 +340,7 @@ This article is the gateway. The full [**local-llm-guide**](https://github.com/L
 ---
 
 *If this guide helped you, consider:*
-- ⭐ **Starring the repo** — it helps others find it
+- ⭐ **Starring the repo** — it helps others find it and you'll get notified when new chapters drop.
 - 🐦 **Sharing on Twitter/X** — tag it so more people can run AI locally
 - 💬 **Joining r/LocalLLaMA** — the community that makes local AI happen
 
