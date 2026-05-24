@@ -4,16 +4,26 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
-
-Covers **Ollama**, **GGUF**, **Open WebUI**, **DeepSeek-R1**, **Qwen 2.5**, **GLM-4**, and everything you need to go from zero to a fully functional local AI stack — **without paying a dime in API fees**.
+[![Dev.to](https://img.shields.io/badge/read%20on-dev.to-0A0A0A)](https://dev.to/lingdas1)
 
 ---
 
-## 📝 Latest Blog Post
+## 👋 Pick Your Path
 
-> **[The Complete Guide to Running LLMs Locally in 2026: From Ollama to Production](./blog/complete-guide-local-llm-2026.md)**
->
-> The definitive beginner-friendly guide covering hardware, Ollama setup, Chinese models, GGUF quantization, Open WebUI, and local RAG.
+**One brand, two entry points.** Choose the one that fits you best:
+
+| 👨‍💻 **For Developers** | 🧑‍🏫 **New to AI? Start Here** |
+|:---|:---|
+| You write code, you have a GPU (or want one), you want to **run AI locally** without API fees. | You've heard about AI but feel overwhelmed. You have a regular laptop and want to **understand what's possible**. |
+| → [Start with the technical series](#-table-of-contents) | → Beginner guides coming soon! [Star the repo](https://github.com/Lingdas1/local-llm-guide) to get notified ⭐ |
+| Or read on Dev.to: [dev.to/lingdas1](https://dev.to/lingdas1) | |
+
+---
+
+## 📝 Latest
+
+> **[Read the full series on Dev.to →](https://dev.to/lingdas1/local-llm-guide-the-complete-series-find-your-starting-point-4do5)**
+> 9 articles covering everything from first setup to production deployment.
 
 ---
 
@@ -28,18 +38,20 @@ Most AI tutorials assume you have:
 
 **This guide is for you.**
 
+I'm a medical student, not a software engineer. If I can figure this out, so can you.
+
 ---
 
 ## 📖 Table of Contents
 
-| # | Chapter | Topic | Level |
-|---|---|---|---|
-| 01 | [Getting Started](./01-getting-started/) | Install Ollama, run your first model | 🟢 Beginner |
-| 02 | [Hardware Guide](./02-hardware-guide/) | GPU/CPU/RAM requirements, matching matrix | 🟢 Beginner |
-|| 03 | [Model Guides](./03-models/) | DeepSeek-R1, Qwen 2.5, GLM-4, Llama 4, Gemma 4 | 🟡 Intermediate |
-| 04 | [Advanced Usage](./04-advanced-usage/) | GGUF from HF, Modelfile, Open WebUI, RAG | 🟡 Intermediate |
-| 05 | [Production](./05-production/) | Multi-user, API deployment, Docker, monitoring | 🔴 Advanced |
-| 06 | [Function Calling](./06-function-calling/) | Tool use with local models, LangChain integration | 🔴 Advanced |
+| # | Chapter | Topic | Level | Dev.to |
+|:---:|---|:---|:---:|:---:|
+| 01 | [Getting Started](./01-getting-started/) | Install Ollama, run your first model | 🟢 Beginner | [Read](https://dev.to/lingdas1/getting-started-run-your-first-local-llm-in-5-minutes-2i1j) |
+| 02 | [Hardware Guide](./02-hardware-guide/) | GPU/CPU/RAM requirements, matching matrix | 🟢 Beginner | [Read](https://dev.to/lingdas1/hardware-guide-what-do-you-actually-need-to-run-local-llms-1eik) |
+| 03 | [Model Guides](./03-models/) | DeepSeek-R1, Qwen 2.5, GLM-4, Llama 4, Gemma 4 | 🟡 Intermediate | [DeepSeek](https://dev.to/lingdas1/deepseek-r1-the-0-o1-alternative-you-can-run-right-now-24a5) · [Qwen](https://dev.to/lingdas1/qwen-36-25-the-most-versatile-local-models-1d8e) |
+| 04 | [Advanced Usage](./04-advanced-usage/) | GGUF from HF, Modelfile, Open WebUI, RAG | 🟡 Intermediate | [GGUF](https://dev.to/lingdas1/gguf-modelfile-the-power-users-guide-to-local-llms-1fbi) · [WebUI](https://dev.to/lingdas1/open-webui-your-local-chatgpt-29d8) · [RAG](https://dev.to/lingdas1/local-rag-chat-with-your-documents-open-source-private-390o) |
+| 05 | [Production](./05-production/) | Multi-user, API deployment, Docker, monitoring | 🔴 Advanced | [Read](https://dev.to/lingdas1/production-ready-local-llms-from-terminal-to-team-deployment-4ph2) |
+| 06 | [Function Calling](./06-function-calling/) | Tool use with local models, LangChain integration | 🔴 Advanced | [Read](https://dev.to/lingdas1/function-calling-for-local-llms-deepseek-qwen-glm-4-langchain-4iac) |
 
 ---
 
@@ -73,7 +85,7 @@ ollama run qwen2.5:7b
 | Mac M3/M4 | 18-48 GB | Qwen 2.5:14b, DeepSeek-R1:14b | Q4_K_M | 25-45 tok/s |
 | CPU only | 32 GB RAM | Qwen 2.5:7b, DeepSeek-R1:14b (CPU) | Q4_K_M | 1-4 tok/s |
 
-> 📊 **Full hardware matrix →** [Chapter 2: Hardware Guide](./02-hardware-guide/gpu-requirements-matrix.md)
+> 📊 **Full hardware matrix →** [Chapter 2: Hardware Guide](./02-hardware-guide/)
 
 ---
 
@@ -119,6 +131,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md). PRs welcome, especially:
 
 ## ⭐ Support
 
-- ⭐ Star this repo if you find it useful
+- ⭐ Star this repo if you find it useful — you'll get notified when new chapters drop
+- 📖 Read the full series on [Dev.to](https://dev.to/lingdas1)
 - 💬 Join the discussion on [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA)
 - 🐛 Report issues [here](https://github.com/Lingdas1/local-llm-guide/issues)
