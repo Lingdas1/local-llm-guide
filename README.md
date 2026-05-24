@@ -2,6 +2,8 @@
 
 > **The definitive, beginner-friendly guide to running Large Language Models on your own hardware.**
 
+> 💡 *"在你认为对的方向先动起来就不会焦虑，但也要时不时停下来看看我们是否走在正确的方向。因为一个停止的表，一天走完至少它有两次是走对的；但一个走错了的表，哪怕走完一整天也是走错的。"*
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![Dev.to](https://img.shields.io/badge/read%20on-dev.to-0A0A0A)](https://dev.to/lingdas1)
