@@ -15,8 +15,8 @@
 | 👨‍💻 **For Developers** | 🧑‍🏫 **New to AI? Start Here** |
 |:---|:---|
 | You write code, you have a GPU (or want one), you want to **run AI locally** without API fees. | You've heard about AI but feel overwhelmed. You have a regular laptop and want to **understand what's possible**. |
-| → [Start with the technical series](#-table-of-contents) | → Beginner guides coming soon! [Star the repo](https://github.com/Lingdas1/local-llm-guide) to get notified ⭐ |
-| Or read on Dev.to: [dev.to/lingdas1](https://dev.to/lingdas1) | |
+| → [Start with the technical series](#-table-of-contents) | → [Beginner guides (plain English)](./blog/beginners/) |
+| Also on [Dev.to](https://dev.to/lingdas1) | Also on [Dev.to](https://dev.to/lingdas1) |
 
 ---
 
