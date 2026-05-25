@@ -25,7 +25,7 @@
 ## 📝 Latest
 
 > **[Read the full series on Dev.to →](https://dev.to/lingdas1/local-llm-guide-the-complete-series-find-your-starting-point-4do5)**
-> 9 articles covering everything from first setup to production deployment.
+> 10 articles covering everything from first setup to production deployment.
 
 ---
 
@@ -50,7 +50,7 @@ I'm a medical student, not a software engineer. If I can figure this out, so can
 |:---:|---|:---|:---:|:---:|
 | 01 | [Getting Started](./01-getting-started/) | Install Ollama, run your first model | 🟢 Beginner | [Read](https://dev.to/lingdas1/getting-started-run-your-first-local-llm-in-5-minutes-2i1j) |
 | 02 | [Hardware Guide](./02-hardware-guide/) | GPU/CPU/RAM requirements, matching matrix | 🟢 Beginner | [Read](https://dev.to/lingdas1/hardware-guide-what-do-you-actually-need-to-run-local-llms-1eik) |
-| 03 | [Model Guides](./03-models/) | DeepSeek-R1, Qwen 2.5, GLM-4, Llama 4, Gemma 4 | 🟡 Intermediate | [DeepSeek](https://dev.to/lingdas1/deepseek-r1-the-0-o1-alternative-you-can-run-right-now-24a5) · [Qwen](https://dev.to/lingdas1/qwen-36-25-the-most-versatile-local-models-1d8e) |
+| 03 | [Model Guides](./03-models/) | DeepSeek-R1, Qwen 2.5, GLM-4, Llama 4, Gemma 4 | 🟡 Intermediate | [DeepSeek](https://dev.to/lingdas1/deepseek-r1-the-0-o1-alternative-you-can-run-right-now-24a5) · [Qwen](https://dev.to/lingdas1/qwen-36-25-the-most-versatile-local-models-1d8e) · [Llama 4](https://dev.to/lingdas1/llama-4-metas-latest-scout-maverick-and-the-moe-revolution-3g0m) |
 | 04 | [Advanced Usage](./04-advanced-usage/) | GGUF from HF, Modelfile, Open WebUI, RAG | 🟡 Intermediate | [GGUF](https://dev.to/lingdas1/gguf-modelfile-the-power-users-guide-to-local-llms-1fbi) · [WebUI](https://dev.to/lingdas1/open-webui-your-local-chatgpt-29d8) · [RAG](https://dev.to/lingdas1/local-rag-chat-with-your-documents-open-source-private-390o) |
 | 05 | [Production](./05-production/) | Multi-user, API deployment, Docker, monitoring | 🔴 Advanced | [Read](https://dev.to/lingdas1/production-ready-local-llms-from-terminal-to-team-deployment-4ph2) |
 | 06 | [Function Calling](./06-function-calling/) | Tool use with local models, LangChain integration | 🔴 Advanced | [Read](https://dev.to/lingdas1/function-calling-for-local-llms-deepseek-qwen-glm-4-langchain-4iac) |
